@@ -4,14 +4,20 @@ import React from 'react';
 
 class CommentList extends React.Component {
 
+	handleSubmit(event) {
+		event.preventDefault();
+		let author = this.refs.author.value,
+			  text = this.refs.text.value;
+	}
+
 	render() {
 		return (
-			<form className="ui reply form">
+			<form className="ui reply form" onSubmit={this.handleSubmit.bind(this)}>
 				<div className="field">
-					<input type="text" placeholder="姓名"/>
+					<input type="text" placeholder="姓名" ref="author"/>
 				</div>
-				<div className="filed textarea">
-					<textarea name="" placeholder="评论" id="" cols="30" rows="10"></textarea>
+				<div className="field">
+					<textarea name="" placeholder="评论" id="" cols="30" rows="10" ref="text"></textarea>
 				</div>
 				<button type="submit" className="ui blue button">
 					添加评论
