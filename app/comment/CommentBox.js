@@ -1,6 +1,8 @@
 'use strict';
 
 import React from 'react';
+import CommentForm from './CommentForm';
+import CommentList from './CommentList';
 
 class CommentBox extends React.Component{
   render() {
@@ -8,6 +10,8 @@ class CommentBox extends React.Component{
       <div className="ui comments">
         <h1>评论</h1>
         <div className="ui divider"></div>
+        <CommentForm />
+        <CommentList />
       </div>
     )
   }
