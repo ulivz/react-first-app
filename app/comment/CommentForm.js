@@ -7,7 +7,8 @@ class CommentList extends React.Component {
 	handleSubmit(event) {
 		event.preventDefault();
 		let author = this.refs.author.value,
-			  text = this.refs.text.value;
+			text = this.refs.text.value;
+		this.props.onCommentSubmit({author, text});
 	}
 
 	render() {

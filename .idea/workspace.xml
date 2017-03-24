@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f75432f-a682-4ae3-a75d-7e0c30971be6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/comment/CommentBox.js" afterPath="$PROJECT_DIR$/app/comment/CommentBox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/comment/CommentForm.js" afterPath="$PROJECT_DIR$/app/comment/CommentForm.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -71,21 +71,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommentForm.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CommentForm.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/comment/CommentForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="388">
+              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommentBox.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CommentBox.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/comment/CommentBox.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="698">
-              <caret line="46" column="62" lean-forward="false" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
+              <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="36" />
               <folding>
                 <element signature="e#15#41#0" expanded="true" />
               </folding>
@@ -143,8 +143,8 @@
         <option value="$PROJECT_DIR$/app/index.js" />
         <option value="$PROJECT_DIR$/app/comment/CommentList.js" />
         <option value="$PROJECT_DIR$/app/comments.json" />
-        <option value="$PROJECT_DIR$/app/comment/CommentForm.js" />
         <option value="$PROJECT_DIR$/app/comment/CommentBox.js" />
+        <option value="$PROJECT_DIR$/app/comment/CommentForm.js" />
       </list>
     </option>
   </component>
@@ -351,12 +351,12 @@
       <workItem from="1490365657445" duration="128000" />
       <workItem from="1490365808061" duration="26000" />
       <workItem from="1490366119746" duration="1604000" />
-      <workItem from="1490367953032" duration="6451000" />
+      <workItem from="1490367953032" duration="6518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13239000" />
+    <option name="totallyTimeSpent" value="13306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1101" y="0" width="1469" height="1030" extended-state="0" />
@@ -804,21 +804,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/comment/CommentForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/comment/CommentBox.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="698">
-          <caret line="46" column="62" lean-forward="false" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
+          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="36" />
           <folding>
             <element signature="e#15#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/comment/CommentForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
