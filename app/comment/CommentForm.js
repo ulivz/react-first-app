@@ -6,8 +6,11 @@ class CommentList extends React.Component {
 
 	render() {
 		return (
-			<div>评论列表<div>
-
+			<form className="ui reply form">
+				<div className="field"><input type="text"/></div>
+				<div className="filed textarea"></div>
+				<button type="submit"></button>
+			</form>
 		)
 	}
 }
