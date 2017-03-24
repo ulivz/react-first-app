@@ -1,14 +1,14 @@
 import React from 'react';
 
-class Shop extends React.Component {
+class Study extends React.Component {
 
 	render() {
 		return (
-			<div>Shop Component</div>
+			<div>Study Component</div>
 		);
 
 	}
 
 }
 
-export {Shop as default};
+export {Study as default};
