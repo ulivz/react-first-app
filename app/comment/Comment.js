@@ -8,7 +8,7 @@ class Comment extends React.Component {
 			<div className="comment">
 				<div className="content">
 					<span className="author">{this.props.author}</span>
-					<div className="metadate">
+					<div className="metadata">
 						<span className="date">{this.props.date}</span>
 					</div>
 					<div className="text">{this.props.children}</div>

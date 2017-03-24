@@ -8,10 +8,10 @@ class CommentBox extends React.Component{
   render() {
     return (
       <div className="ui comments">
-        <h1>评论</h1>
+        <h1>Comment</h1>
         <div className="ui divider"></div>
-        <CommentForm />
         <CommentList data={this.props.data}/>
+        <CommentForm />
       </div>
     )
   }

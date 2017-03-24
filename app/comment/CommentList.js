@@ -10,7 +10,7 @@ class CommentList extends React.Component {
 		console.log( this.props.data)
 		let CommentNodes = this.props.data.map(comment => {
 			return (
-				<Comment auhot={comment.author} date={comment.date}>
+				<Comment author={comment.author} date={comment.date}>
 					{comment.text}
 				</Comment>
 			);
