@@ -8,14 +8,26 @@ module.exports = {
 		filename: 'bundle.js',
 	},
 	module: {
-		loaders: [
-			{
-				test: /\.jsx?$/,
-				loader: 'babel-loader',
-				exclude: /node_modules/,
-				query: {presets: ['es2015', 'react'] }
-			}
-		]
+		rules: [
+		      {
+		        test: /\.css$/,
+		        loader: 'style-loader!css-loader'
+		      },
+					{
+						test: /\.jsx?$/,
+						loader:  'babel-loader',
+						exclude: /node_modules/,
+						query: {presets: ['es2015', 'react'] }
+					},
+					{
+		        test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
+		        loader: 'url-loader'
+		      },
+		      {
+		        test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
+		        loader: 'url-loader'
+		      }
+		    ]
 	},
 	resolve: {
 		extensions: ['.js', '.jsx'],
