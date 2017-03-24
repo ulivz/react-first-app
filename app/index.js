@@ -1,8 +1,16 @@
+'use strict';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import semanticUI from '../node_modules/semantic-ui/dist/semantic.min.css'
+import CommentBox from './comment/CommentBox'
+
+// CommentBox
+// CommentList
+// CommentList
+// CommentForm
 
 ReactDOM.render(
-<h1>Hello, world!</h1>,
-	document.getElementById('content')
-);
+  <CommentBox />,
+  document.getElementById('app')
+)
