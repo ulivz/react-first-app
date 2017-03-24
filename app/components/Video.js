@@ -4,7 +4,7 @@ class Video extends React.Component {
 
 	render() {
 		return (
-			<div>Video Component</div>
+			<div className="component-warpper">Video Component</div>
 		);
 
 	}
