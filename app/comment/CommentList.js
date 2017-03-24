@@ -6,11 +6,9 @@ import Comment from './Comment';
 class CommentList extends React.Component {
 
 	render() {
-
-		console.log( this.props.data)
-		let CommentNodes = this.props.data.map(comment => {
+		let CommentNodes = this.props.data.map((comment, index) => {
 			return (
-				<Comment author={comment.author} date={comment.date}>
+				<Comment key={index} author={comment.author} date={comment.date}>
 					{comment.text}
 				</Comment>
 			);

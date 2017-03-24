@@ -3,7 +3,7 @@
 import React from 'react';
 import CommentForm from './CommentForm';
 import CommentList from './CommentList';
-import fetch from 'fetch';
+import 'whatwg-fetch';
 
 class CommentBox extends React.Component {
 
@@ -14,8 +14,13 @@ class CommentBox extends React.Component {
 		}
 
 		fetch(this.props.url)
-			.then(function (response) {
-				console.log(response)
+			.then(response => {
+				return response.json()
+			}, err => {
+				console.log(err)
+			})
+			.then(json => {
+				this.setState({data: json})
 			})
 	}
 
