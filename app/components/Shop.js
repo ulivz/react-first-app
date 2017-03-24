@@ -4,7 +4,7 @@ class Shop extends React.Component {
 
 	render() {
 		return (
-			<div>Shop Component</div>
+			<div className="component-warpper">Shop Component</div>
 		);
 	}
 

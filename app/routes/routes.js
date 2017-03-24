@@ -16,6 +16,10 @@ class MyRouter extends React.Component {
 		return (
 			<Router>
 				<div>
+					<div>
+						<h1 className="comment-title">React Router</h1>
+						<div className="ui divider"></div>
+					</div>
 					<div className="nav">
 						<div className="three-colums"><Link to="/shop">Shop</Link></div>
 						<div className="three-colums"><Link to="/study">Study</Link></div>
