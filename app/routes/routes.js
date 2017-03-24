@@ -1,4 +1,9 @@
-import {Router, Route, hashHistory} from 'react-router';
+import React from 'react'
+import {
+	BrowserRouter as Router,
+	Route,
+	Link
+} from 'react-router-dom'
 import Shop from '../components/Shop';
 import Study from '../components/Study';
 import Video from '../components/Video';

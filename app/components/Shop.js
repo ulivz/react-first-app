@@ -6,7 +6,6 @@ class Shop extends React.Component {
 		return (
 			<div>Shop Component</div>
 		);
-
 	}
 
 }
