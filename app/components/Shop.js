@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Shop extends React.Component{
+class Shop extends React.Component {
 
 	render() {
 		return (
@@ -9,5 +9,6 @@ class Shop extends React.Component{
 
 	}
 
-
 }
+
+export {Shop as default};
