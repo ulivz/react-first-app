@@ -6,7 +6,8 @@ import Comment from './Comment';
 class CommentList extends React.Component {
 
 	render() {
-		console.log(this.props.data)
+
+		console.log( this.props.data)
 		let CommentNodes = this.props.data.map(comment => {
 			return (
 				<Comment auhot={comment.author} date={comment.date}>
