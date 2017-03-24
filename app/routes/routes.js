@@ -16,14 +16,15 @@ class MyRouter extends React.Component {
 		return (
 			<Router>
 				<div>
+					<div>
+						<div style={{'cursor':'pointer'}}><Link to="/shop">Shop</Link></div>
+						<div style={{'cursor':'pointer'}}><Link to="/study">Study</Link></div>
+						<div style={{'cursor':'pointer'}}><Link to="/video">Video</Link></div>
+					</div>
+					<Route exact path="/" component={Shop}/>
 					<Route path="/shop" component={Shop}/>
 					<Route path="/study" component={Study}/>
 					<Route path="/video" component={Video}/>
-					<div>
-						<div style={{'cursor':'pointer'}}><Link to="/shop"/>Shop</div>
-						<div style={{'cursor':'pointer'}}><Link to="/study"/>Study</div>
-						<div style={{'cursor':'pointer'}}><Link to="/video"/>Video</div>
-					</div>
 				</div>
 			</Router>
 		)
