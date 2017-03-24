@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import Comment from 'Comment';
+import Comment from './Comment';
 
 class CommentList extends React.Component {
 
