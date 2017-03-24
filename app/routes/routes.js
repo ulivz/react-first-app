@@ -4,15 +4,23 @@ import {
 	Route,
 	Link
 } from 'react-router-dom'
+
 import Shop from '../components/Shop';
 import Study from '../components/Study';
 import Video from '../components/Video';
 
 let ROUTER = (
-	<Router history={hashHistory}>
-		<Route path="/shop" component={Shop}/>
-		<Route path="/study" component={Study}/>
-		<Route path="/video" component={Video}/>
+	<Router>
+		<div>
+			<Route path="/shop" component={Shop}/>
+			<Route path="/study" component={Study}/>
+			<Route path="/video" component={Video}/>
+			<div>
+				<div style={{'cursor':'pointer'}}><Link to="/shop"/>Shop</div>
+				<div style={{'cursor':'pointer'}}><Link to="/study"/>Study</div>
+				<div style={{'cursor':'pointer'}}><Link to="/video"/>Video</div>
+			</div>
+		</div>
 	</Router>
 )
 
