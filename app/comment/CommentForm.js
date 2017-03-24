@@ -8,7 +8,7 @@ class CommentList extends React.Component {
 		event.preventDefault();
 		let author = this.refs.author.value,
 			text = this.refs.text.value;
-		this.props.onCommentSubmit({author, text});
+		this.props.onCommentSubmit({author, text, date: 'Just now'});
 	}
 
 	render() {
