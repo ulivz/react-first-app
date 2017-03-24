@@ -1,12 +1,16 @@
 'use strict';
 
 import React from 'react';
+import Comment from 'Comment';
 
 class CommentList extends React.Component {
 
 	render() {
 		return (
-			<div>评论列表</div>
+			<div>
+				<Comment author="Toxichl" date="5 分钟前">天气不错啊</Comment>
+				<Comment author="Chen Haoli" date="5 分钟前">天气不错啊</Comment>
+			</div>
 		)
 	}
 
