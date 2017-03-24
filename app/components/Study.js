@@ -4,7 +4,7 @@ class Study extends React.Component {
 
 	render() {
 		return (
-			<div className="component-warpper">Study Component</div>
+			<h1 className="component-warpper">Study Component</h1>
 		);
 
 	}
