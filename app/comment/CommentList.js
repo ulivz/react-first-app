@@ -6,17 +6,26 @@ import Comment from './Comment';
 class CommentList extends React.Component {
 
 	render() {
+		console.log(this.props.data)
+		let CommentNodes = this.props.data.map(comment => {
+			return (
+				<Comment auhot={comment.author} date={comment.date}>
+					{comment.text}
+				</Comment>
+			);
+		});
+
 		return (
 			<div>
-				<Comment author="Toxichl" date="5 分钟前">天气不错啊</Comment>
-				<Comment author="Chen Haoli" date="5 分钟前">出去玩啊</Comment>
+				{CommentNodes}
 			</div>
 		)
+
 	}
 
 }
 
-export { CommentList as default };
+export {CommentList as default};
 
 
 
