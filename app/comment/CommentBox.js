@@ -13,6 +13,14 @@ class CommentBox extends React.Component {
 			data: []
 		}
 
+		this.getComments();
+		setInterval(() => {
+			this.getComments()
+		}, 5000)
+
+	}
+
+	getComments() {
 		fetch(this.props.url)
 			.then(response => {
 				return response.json()
@@ -22,6 +30,7 @@ class CommentBox extends React.Component {
 			.then(json => {
 				this.setState({data: json})
 			})
+
 	}
 
 	render() {
