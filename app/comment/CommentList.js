@@ -9,7 +9,7 @@ class CommentList extends React.Component {
 		return (
 			<div>
 				<Comment author="Toxichl" date="5 分钟前">天气不错啊</Comment>
-				<Comment author="Chen Haoli" date="5 分钟前">天气不错啊</Comment>
+				<Comment author="Chen Haoli" date="5 分钟前">出去玩啊</Comment>
 			</div>
 		)
 	}

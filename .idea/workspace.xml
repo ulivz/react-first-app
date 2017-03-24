@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f75432f-a682-4ae3-a75d-7e0c30971be6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/comment/Comment.js" afterPath="$PROJECT_DIR$/app/comment/Comment.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/comment/CommentList.js" afterPath="$PROJECT_DIR$/app/comment/CommentList.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -62,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/app/comment/CommentList.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="403">
-              <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+              <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
               <folding>
                 <element signature="e#15#41#0" expanded="true" />
               </folding>
@@ -356,12 +355,12 @@
       <workItem from="1490365537489" duration="81000" />
       <workItem from="1490365657445" duration="128000" />
       <workItem from="1490365808061" duration="26000" />
-      <workItem from="1490366119746" duration="1451000" />
+      <workItem from="1490366119746" duration="1472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6635000" />
+    <option name="totallyTimeSpent" value="6656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1270" y="0" width="1300" height="1030" extended-state="0" />
@@ -818,7 +817,7 @@
     <entry file="file://$PROJECT_DIR$/app/comment/CommentList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
-          <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding>
             <element signature="e#15#41#0" expanded="true" />
           </folding>
