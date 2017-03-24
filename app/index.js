@@ -2,9 +2,10 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '../node_modules/semantic-ui/dist/semantic.min.css'
+import '../node_modules/semantic-ui/dist/semantic.min.css';
+import './style/color.less';
 import CommentBox from './comment/CommentBox';
-import MyRouter from './routes/routes.js'
+import MyRouter from './routes/routes.js';
 
 // CommentBox
 // CommentList
